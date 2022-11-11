@@ -1,0 +1,347 @@
+/*phars
+    1-common styles
+    2-General Styles
+    3-section
+        3.0-header section
+        3.1-home section
+        3.2-About section
+        3.3-what we cover section
+            3.3.0-stories islamic
+                3.3.0.1-prophets' stories
+                3.3.0.2-Stories of the Companions Prophet Muhammad
+                3.3.0.3-Stories of the leaders of Islam
+                3.3.0.4-different stories
+                3.3.0.5-Quran stories
+                3.3.0.6-Stories of the Companions
+                3.3.0.7-Egyptian repentant stories
+                3.3.0.8-repentant stories
+                3.3.0.9-animal stories
+            3.3.1-Prophet's sayings
+                3.3.1.1-nuclear forty
+                3.3.1.3-Talk about honesty
+                3.3.1.4-Talk about science
+                3.3.1.5-Talk about cleanliness and honesty
+                3.3.1.6-Prophet's sayings
+            3.3.2-General Islamic
+                3.3.2.0-Description of paradise
+                3.3.2.1-Duas from the Qur'an
+                3.3.2.2-Duas from the Sunnah
+                3.3.2.3-public supplications
+                3.3.2.4-Duas seeking knowledge
+                3.3.2.5-Sunnah of the Prophet
+                3.3.2.6-Teaching prayer to children
+            3.3.3-Speeches and lectures
+                3.3.3.1-hazem shoman
+                3.3.3.2-mohamed el5leth
+                3.3.3.3-ahmed elazeb
+                3.3.3.4-mohamed hassan
+                3.3.3.5-khaled elrashed
+                3.3.3.6-sh3rawy
+                3.3.3.7-mahmoud masry
+                3.3.3.8-islam sophy
+            3.3.4-Roquia islamic
+                3.3.4.1-The first stage
+                3.3.4.2-The second stage
+                3.3.4.3-The third stage
+            3.3.5-Fatwas and rulings
+                3.3.5.1-ebn elbazz
+                    3.3.5.1.1-Polytheism and its types
+                    3.3.5.1.2-Faith in God
+                    3.3.5.1.3-updated fads
+                    3.3.5.1.4-Loyalty and Enmity
+                    3.3.5.1.5-Miscellaneous creed
+                    3.3.5.1.6-Literature collector
+                    3.3.5.1.7-purity
+                    3.3.5.1.8-Prayer
+                    3.3.5.1.9-funerals
+                    3.3.5.1.10-zakat
+                    3.3.5.1.11-fasting
+                    3.3.5.1.12-Pilgrimage
+                    3.3.5.1.13-Marriage and divorce
+                    3.3.5.1.14-foods
+                3.3.5.2-woman
+                    3.3.5.2.1-women's purity
+                    3.3.5.2.2-women's prayer
+                    3.3.5.2.3-women's zakat
+                    3.3.5.2.4-women's fasting
+                    3.3.5.2.5-women's pilgrimage
+                    3.3.5.2.6-women's masturbation
+                    3.3.5.2.7-women's Dress and adornment
+                    3.3.5.2.8-women's The sacrifice and the aqeeqah
+                    3.3.5.2.9-women's Righteousness, Relationship, and Ethics
+                    3.3.5.2.10-women's nursery
+                    3.3.5.2.11-women's breastfeeding
+                    3.3.5.2.12-women's vow
+                    3.3.5.2.13-women's felonies
+                    3.3.5.2.14-Women and the Qur'an
+            3.3.6-Prophet's life
+                3.3.6.1-About the life of the Prophet Muhammed
+                3.3.6.2-The conquests of the Prophet Muhammad
+                3.3.6.3-Prophet's life
+                3.3.6.4-Wives and daughters of our master Muhammad
+                3.3.6.5-Who is Muhammad, the Messenger of Allah
+                3.3.6.6-Prophet's creation
+            3.3.8-The Quran
+            3.3.9-Chip Stories
+        3.4-contact section
+        3.5-footer section
+*/
+/*2-generral styles*/
+/*
+    container
+    opacity haver
+    button bublic
+*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.container{width: 80%;margin: auto;}
+body{
+    direction: rtl;
+    height: 4000px;
+    background-color: #10BE76;
+    perspective: 700px;}
+a{text-decoration: none;display: block;}
+.pdy{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border-radius:3px;
+    outline: none;
+    border: none;
+    transition: all  .3s ease-in-out;
+    font-weight: bold;
+}
+.pad{padding:30px;}
+/***************************************
+          Start Section header
+ ***************************************/
+.header{position:relative;}
+.header .btn{
+    height: 50px;
+    margin-left: 50px;
+    background-color: #FBBF07;}
+.header .btn:hover{background-color:  #09f291;border: 2px solid #FBBF07;}
+.header a{
+    width: 100%;
+    font-size: 1.7rem;
+    color: #012315;
+    font-weight: bold;   
+}
+.content{
+    box-shadow: 2px 2px 5px 2px #09f291,
+                -0px -1px 5px 1px #09f291;
+}
+.content>img{margin-right: 50px;}
+.nav{width:60%;text-align: center;}
+.item-nav{list-style: none;display: inline-block;}
+.item-nav a{
+    padding:10px 20px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.item-nav a:hover{background-color:#09f291;border-radius: 10px;}
+.header input , .header label{
+    position: absolute;
+    top: 80px;
+    left: 108px;
+}
+.header input {display:none;}
+.header label{
+    display:block;
+    width: 35px;
+    height: 35px;
+    background-image: url("image/icons8-menu-52.png");
+    background-size: cover;
+    padding: 25px;
+}
+/*****************************
+  END SSECTION HEADER
+  ***************************/
+.home-content{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    position:relative;
+}
+.home-img{
+    width:50%;
+    background-color:#09f291;
+    background-image:url("image/al-aqsa-mosque.png");
+    background-size:100% 100%;
+    height:100vh;
+    box-shadow: -2px  5px 2px #09f291;
+}
+.home-desc{
+    width:50%;
+    margin:auto;   
+    text-align: center;
+}
+.home-desc h2{
+    font-size:5rem;
+    color: #09f291;
+    text-shadow:  2px 2px 3px #012315;
+    font-weight: bolder;
+}
+.home-desc p{
+    font-size: 1.5rem;
+    color: #2f4f42;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.home-desc .btn{margin-top: 30px;background-color: #FBBF07;}
+.home-desc .btn:hover{
+    box-shadow: 1px 1px 3px 1px #038a52,
+    -1px -1px 3px 1px #02844e;
+    background-color:#09f291;
+    width: 145px;
+}
+.home-desc a{
+    width: 100%;
+    font-size: 1.5rem;
+}
+/*****************************
+     START ABOUT SECTION
+*****************************/
+.about{
+    background-image:url("image/البسملة_بسم_الله_الرحمن_الرحيم.png");
+    height:18rem;
+    background-size:100% 100%;
+    background-position:center;
+    margin-bottom:50px;
+    font-weight:bold;
+}
+
+/*****************************
+  END SSECTION ABOUT
+  ***************************/
+  /* ----------------------
+         cover section
+  ------------------------- */
+  .dc-tab-cover{
+    width: 22.22%;
+    height: 240px;
+     background-color: #09f291;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #ddd;
+    padding-top: 3%;
+    transition: all .3s ; 
+     
+  }
+  .dc-tab-cover:hover
+{cursor: pointer;transform:scale(1.1);}
+.dc-tab-cover h3{
+    height: 50%;
+    color: #01673b;
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+.cover .btn{
+    width: 100%;
+    background-color:#FBBF07;}
+  /* ----------------------
+     end cover section
+  ------------------------- */
+  
+  /*************************
+     Section Advice
+  **************************/
+.advice{background-color:#FBBF07;text-align:center;}
+.advice-title h2{
+    font-size: 2rem;
+    color: #01673b;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+.advice-title p{color: #2f4f42;font-weight: bold;}
+.advice-bransh{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;}
+.advice-bransh .btn{
+    width:9%;
+    height: 120px;
+    background-color: #10BE76;
+    margin-left: 3px;
+    transform: skew(20deg);
+    transform: rotate(-24deg);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:50% ;
+    border-top-left-radius:50% ;}
+.advice-bransh .btn a{    
+    font-weight: bold;
+    height: 100%;
+    padding-top: 40%;
+    color:#FBBF07;}
+.advice-bransh .btn a:hover{  
+    color: #012315;}  
+.advice-bransh .btn:hover{ 
+    background-color: #FBBF07; 
+    border: 1px solid #038a52; }
+
+  /* ----------------------
+     End advice section
+  ------------------------- */
+  
+@media(min-width:992px){
+    .header label{display: none;}
+    .home img{display: none;}
+}
+@media(max-width:991px){
+    .header input:checked ~ ul{
+        display: none;
+    }
+    .header input , .header label{
+        position: absolute;
+        top: 7px;
+        left: 120px;}
+    .header .btn{display: none;}
+    .nav{width: 100%;background-color: #10BE76;background-size: 100% 100%;height: 40vh;}
+    .item-nav{width: 100%;text-align: center;}
+    .home-desc h2{font-size: 2.5rem;}
+    .home-desc p{font-size: 1rem;}
+    .dc-tab-cover{width: 30%;}
+    .home img{display: none;}
+}
+@media(min-width: 577px)and(max-width: 768px){
+    
+    .dc-tab-cover{ width:44%;}   
+}
+@media (max-width: 576px){
+    .header input , .header label{
+        position: absolute;
+        top: 8px;
+        left:60px;
+    }
+    .home-img{display: none;}
+    .home-desc{width: 100%;background-color: #09f291;}
+    .home-desc h2{font-size: 4rem;margin-top: 100px;color: #2f4f42;}
+    .home-desc p{padding: 19px;}
+    .dc-tab-cover{width: 100%;}
+    .dc-tab-cover:hover{transform: scaleX(1.1);}
+    .home img{display:block;margin: 40px;}
+    .advice-bransh .btn{width:19%;margin-bottom: 4%;}
+    
+    
+}
+/*
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
